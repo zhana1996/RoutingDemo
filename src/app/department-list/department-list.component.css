@@ -1,0 +1,30 @@
+#departmentList {
+    background: lightgray;
+    width: 10%;
+    border-radius: 3px;
+    margin-bottom: 0.5%;/*2%*/
+    padding-right: 8em;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 2%;
+}
+
+span {
+    padding: 0.40em 1.1em;/*1em .4em*/
+    margin-right: 5%;
+    padding-right: 1.5em;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: darkcyan !important;
+}
+
+.h3, h3{
+    font-size: 1.75rem;
+    margin-left: 8em;
+}

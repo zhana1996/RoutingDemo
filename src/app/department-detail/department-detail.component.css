@@ -1,0 +1,60 @@
+.myBtnNext {
+    color: white !important;
+    background-color: #e7f154;
+    width: 7em;
+    margin-left: .6%;
+    border-radius: 12px;
+    margin-right: 1.2%;
+    border: 2px solid white;
+}
+
+.myBtnNext:hover{
+    background-color: white;
+    color: black !important;
+    border: 2px solid #e7f154;
+}
+
+.myBtnPrev{
+    color: white !important;
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 7em;
+    margin-left: .6%;
+    border-radius: 12px;
+    margin-right: 1.2%;
+}
+
+.myBtnPrev:hover{
+    background-color: white;
+    color: black !important;
+    border: 2px solid #28a745;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: 5%;
+    padding: 3%;
+}
+
+.myBtnBack {
+    color: white;
+    width: 7em;
+    height: 4em;
+    margin-left: .6%;
+    border-radius: 12px;
+    margin-right: 1.2%;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+}
+
+.myBtnBack:hover{
+    background-color: white;
+    color: black !important;
+    border: 2px solid deepskyblue;
+}
+
+#buttonsChild{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 5em;
+}

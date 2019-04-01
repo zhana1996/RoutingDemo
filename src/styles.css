@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+nav a.active{
+    color: pink;
+}
+
+nav a.hover{
+    color: red;
+}
+
+nav a.visited{
+    color:green;
+}

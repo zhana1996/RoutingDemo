@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h3>You selected department with id = {{departmentId}} and name = {{departmentName}}</h3>
+      <p id="buttonsChild">
+          <button class="myBtnBack" (click)="showOverview()">Overview</button>
+          <button class="myBtnBack" (click)="showContact()">Contact</button>
+        </p>
+        <router-outlet></router-outlet>
+    </div>
+    <div class="col-2">
+        <a (click)="goPrevious()" class="btn myBtnPrev" routerLinkActive="active1">Previous department</a>
+    </div>
+    <div class="col-2">
+        <a (click)="goNext()" class="btn myBtnNext" routerLinkActive="active2">Next department</a>
+    </div>
+    <div class="col-2">
+        <button class="myBtnBack" (click)="goToDepartments()">Back</button>
+    </div>
+  </div>
+</div>
+
+
+
+
